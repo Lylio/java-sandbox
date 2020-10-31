@@ -8,7 +8,6 @@ public class UserApplication {
 
     public static void main(String[] args) {
         userDao = new UserDao();
-
         User user1 = getUser(0);
         System.out.println(user1);
         userDao.update(user1, new String[]{"Jake", "jake@domain.com"});
