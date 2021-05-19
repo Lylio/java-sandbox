@@ -14,6 +14,13 @@ public class LambdaExpressions {
         items.add(4);
 
         items.forEach(item -> System.out.println(item*item));
+
+        System.out.println(" - - - - - - - - - - - - - ");
+
+        for (int i = 0; i < items.size(); i++) {
+            System.out.println(items.get(i) * items.get(i));
+        }
+
     }
 }
 
