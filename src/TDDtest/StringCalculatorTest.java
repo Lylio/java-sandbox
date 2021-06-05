@@ -35,4 +35,6 @@ public class StringCalculatorTest {
         Assert.assertEquals(12, StringCalculator.add("7,5"));
     }
 
+
+
 }
