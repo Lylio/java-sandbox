@@ -5,5 +5,4 @@
 A variety of Java concepts demonstrating a range of techniques - a continuum
 of the [Java Archive](https://github.com/Lylio/java-archive).
 
-#### Sources
-- [Baeldung](https://www.baeldung.com)
+![](https://github.com/Lylio/image-repo/blob/master/logos/sandbox.png?raw=true)
