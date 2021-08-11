@@ -1,3 +1,5 @@
+package Hashcodes;
+
 public class HashBrown {
 
 	public static void main(String[] args) {
