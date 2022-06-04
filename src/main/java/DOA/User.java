@@ -1,4 +1,4 @@
-package DOA;
+package doa;
 
 public class User {
 

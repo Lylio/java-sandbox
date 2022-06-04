@@ -1,4 +1,4 @@
-package DecimalRound;
+package decimalround;
 
 // How to round a number to N decimal places
 

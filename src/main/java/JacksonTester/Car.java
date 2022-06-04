@@ -1,4 +1,4 @@
-package JacksonTester;
+package jacksontester;
 
 public class Car {
 

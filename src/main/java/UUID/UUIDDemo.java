@@ -1,4 +1,4 @@
-package UUID;
+package uuid;
 import java.util.UUID;
 
 public class UUIDDemo {

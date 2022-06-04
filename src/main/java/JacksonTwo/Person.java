@@ -1,4 +1,4 @@
-package JacksonTwo;
+package jacksontwo;
 
 import lombok.AllArgsConstructor;
 import lombok.Data;
