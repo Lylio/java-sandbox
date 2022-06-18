@@ -16,7 +16,7 @@ public class JacksonDemo {
         objectMapper.writeValue(new File("./target/car.json"), car);
 
         // JSON to Java Object - method 1 (requires empty default constructor)
-        String myJSON = "{\"colour\" : \"Black\", \"type\" : \"BMW\" }";
+        String myJSON = "{\"car-colour\" : \"Black\", \"type\" : \"BMW\" }";
         Car car2 = objectMapper.readValue(myJSON, Car.class);
         System.out.println(car2.getColour());
 
@@ -25,7 +25,7 @@ public class JacksonDemo {
         System.out.println(car3.getType());
 
         //Java Map from JSON String
-        String myjson2 = "{ \"color\" : \"White\", \"type\" : \"Honda\" }";
+        String myjson2 = "{ \"car-colour\" : \"White\", \"type\" : \"Honda\" }";
         Map<String, Object> map = objectMapper.readValue(myjson2, new TypeReference<Map<String,Object>>(){});
         System.out.println(map.values());
 
