@@ -1,7 +1,9 @@
-package JacksonTester;
+package jacksontester;
+
+import com.fasterxml.jackson.annotation.JsonProperty;
 
 public class Car {
-
+    @JsonProperty(value = "car-colour")
     private String colour;
     private String type;
 

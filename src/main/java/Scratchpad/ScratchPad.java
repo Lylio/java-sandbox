@@ -1,4 +1,4 @@
-package Scratchpad;
+package scratchpad;
 
 import java.time.Instant;
 

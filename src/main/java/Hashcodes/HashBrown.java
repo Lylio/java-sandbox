@@ -1,4 +1,4 @@
-package Hashcodes;
+package hashcodes;
 
 public class HashBrown {
 

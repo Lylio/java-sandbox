@@ -1,7 +1,4 @@
-package Scratchpad;
-
-import org.slf4j.Logger;
-import org.slf4j.LoggerFactory;
+package scratchpad;
 
 import java.util.ArrayList;
 import java.util.List;

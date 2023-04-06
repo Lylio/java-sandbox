@@ -1,4 +1,4 @@
-package JacksonTwo;
+package jacksontwo;
 
 import com.fasterxml.jackson.databind.ObjectMapper;
 

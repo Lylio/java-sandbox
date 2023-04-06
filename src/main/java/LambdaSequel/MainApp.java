@@ -1,4 +1,4 @@
-package LambdaSequel;
+package lambdasequel;
 
 public class MainApp {
 

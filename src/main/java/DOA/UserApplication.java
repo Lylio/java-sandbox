@@ -1,4 +1,4 @@
-package DOA;
+package doa;
 
 import java.util.Optional;
 

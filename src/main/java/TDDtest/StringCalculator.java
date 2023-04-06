@@ -1,4 +1,4 @@
-package TDDtest;
+package tddtest;
 
 public class StringCalculator {
 
