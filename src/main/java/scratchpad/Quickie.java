@@ -9,10 +9,10 @@ public class Quickie {
 
         List<String> myColours = new ArrayList<>();
 
-        myColours.add("orange");
-        myColours.add("orange");
+        myColours.add("orange1");
+        myColours.add("orange2");
         myColours.add("red");
-        myColours.add("orange");
+        myColours.add("orange3");
         myColours.add("green");
         myColours.add("blue");
 
