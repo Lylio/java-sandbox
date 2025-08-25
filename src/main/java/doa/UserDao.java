@@ -5,32 +5,32 @@ import java.util.List;
 import java.util.Objects;
 import java.util.Optional;
 
-public class UserDao implements Dao<User> {
+public class UserDao implements doa.Dao<doa.User> {
 
-    private List<User> users = new ArrayList<>();
+    private List<doa.User> users = new ArrayList<>();
 
     public UserDao() {
-        users.add(new User("Sammy Alice", "s.alice@mail.com00"));
-        users.add(new User("Alice Black", "blackstar@hotmail.com"));
+        users.add(new doa.User("Sammy Alice", "s.alice@mail.com00"));
+        users.add(new doa.User("Alice Black", "blackstar@hotmail.com"));
     }
 
     @Override
-    public Optional<User> get(long id) {
+    public Optional<doa.User> get(long id) {
         return Optional.empty();
     }
 
     @Override
-    public List<User> getAll() {
+    public List<doa.User> getAll() {
         return users;
     }
 
     @Override
-    public void save(User user) {
+    public void save(doa.User user) {
         users.add(user);
     }
 
     @Override
-    public void update(User user, String[] params) {
+    public void update(doa.User user, String[] params) {
         user.setName(Objects.requireNonNull(
                 params[0], "Name cannot be null"));
         user.setEmail(Objects.requireNonNull(
@@ -41,7 +41,7 @@ public class UserDao implements Dao<User> {
     }
 
     @Override
-    public void delete(User user) {
+    public void delete(doa.User user) {
         users.remove(user);
     }
 }
